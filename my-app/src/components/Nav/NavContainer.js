@@ -5,6 +5,7 @@ import "./NavContainer.css";
 function NavContainer() {
   return (
     <nav>
+      <button id="hamburger" class="hamburger hide"></button>
       <ul>
         <li>
           <NavLink
@@ -29,7 +30,7 @@ function NavContainer() {
           <NavLink
             to="/contact"
             activeClassName="contact_selected"
-            className="contact "
+            className="contact"
           >
             Contact
           </NavLink>

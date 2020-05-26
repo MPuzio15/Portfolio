@@ -1,0 +1,58 @@
+.technologiesWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.singleTech {
+    width: 20%;
+    border: 2px solid;
+    margin: 3%;
+    background-color: rgb(255, 254, 254);
+}
+
+@media(max-width: 1250px) {
+    .technologiesWrapper {
+        height: 100%;
+        display: flex;
+    }
+
+    .singleTech {
+        width: 30%;
+        border: 2px solid;
+        margin: 3%;
+    }
+}
+
+@media(max-width: 1100px) {
+    .technologiesWrapper {
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .singleTech {
+        width: 40%;
+        border: 2px solid;
+        margin: 3%;
+    }
+}
+
+@media(max-width: 1100px) {
+    .technologiesWrapper {
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .singleTech {
+        width: 40%;
+        border: 2px solid;
+        margin: 3%;
+    }
+}

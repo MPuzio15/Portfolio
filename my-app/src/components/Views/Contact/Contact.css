@@ -1,0 +1,116 @@
+.icons {
+    margin-top: 8vh;
+    margin-bottom: 12vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContainer {
+    flex-basis: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.link {
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    width: 40vw;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-inline--fa.fa-linkedin-in.fa-w-14.icon {
+    color: #0077B5;
+}
+
+.svg-inline--fa.fa-github-square.fa-w-14.icon {
+    color: #DAB484;
+}
+
+.svg-inline--fa.fa-envelope-open.fa-w-16.icon {
+    color: rgb(72, 173, 72);
+}
+
+.svg-inline--fa.fa-phone-square.fa-w-14.icon {
+    color: #95486c;
+}
+
+.contactContainer {
+    margin-bottom: 10%;
+}
+
+@media(max-width: 560px) {
+    .icons {
+        margin-top: 17vh;
+        margin-bottom: 12vh;
+    }
+
+    .iconContainer {
+        flex-basis: 20%;
+    }
+
+    .link {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        width: 90vw;
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width: 460px) {
+    .icons {
+        margin-top: 15vh;
+    }
+
+    .iconContainer {
+        flex-basis: 20vh;
+    }
+
+    .link {
+        font-size: 3.0rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        width: 80vw;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .svg-inline--fa.fa-linkedin-in.fa-w-14.icon,
+    .svg-inline--fa.fa-github-square.fa-w-14.icon,
+    .svg-inline--fa.fa-envelope-open.fa-w-16.icon,
+    .svg-inline--fa.fa-phone-square.fa-w-14.icon {
+        font-size: 2.2rem;
+    }
+
+    .description {
+        width: 90vw;
+        font-size: 0.8rem;
+    }
+}
