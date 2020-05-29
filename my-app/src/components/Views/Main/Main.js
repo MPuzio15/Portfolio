@@ -35,7 +35,7 @@ class Main extends Component {
         </main>
         <section className="aboutMe">
           <div className="mainDiv">
-            <div className="firstRight">About me</div>
+            <div className="aboutMeMain">About me</div>
             <div className="aboutMeText">
               <div>
                 Everyday I step forward to became a better front-end developer.
@@ -53,7 +53,7 @@ class Main extends Component {
             </div>
           </div>
           <div className="mainDiv" className="mainDiv">
-            <div className="firstRight">Technologies</div>
+            <div className="aboutMeMain">Technologies</div>
             <div className="technologiesWrapper">{allTechnologies}</div>
           </div>
         </section>

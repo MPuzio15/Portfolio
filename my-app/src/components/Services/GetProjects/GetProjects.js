@@ -10,7 +10,7 @@ import portfolio4 from "../../../images/portfolio4.png";
 const allProjects = [
   {
     id: 1,
-    name: "Coffe Shop",
+    name: "Coffee Shop",
     mainImg: portfolio1,
     otherImgs: [htmlImg, cssImg, jsImg],
   },

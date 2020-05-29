@@ -45,42 +45,105 @@
     }
 }
 
-@media(max-width: 460px) {
+@media(max-width: 700px) {
     .title {
+        flex-basis: 10%;
+        text-transform: uppercase;
         letter-spacing: 5px;
         font-size: 0.8rem;
         text-align: center;
     }
 
     .mainImg {
-        height: 90%;
-        width: 100%;
+        flex-basis: 60%;
+        height: 60%;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        text-align: center;
     }
 
     .mainImg img {
-        width: 80%;
-        height: 80%;
+        width: 90%;
+        height: 90%;
+    }
+
+    .techsIcons {
+        width: 100%;
+        flex-basis: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: center;
+
+    }
+
+    .techsIcons img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .techsIcons div {
+        flex-basis: 10%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 460px) {
+    .title {
+        letter-spacing: 7px;
+        font-size: 0.8rem;
+        margin-bottom: 3vh;
+    }
+
+    .mainImg {
+        height: 90%;
+        width: 90%;
+    }
+
+    .mainImg img {
+        width: 100%;
+        height: 100%;
     }
 
     .techsIcons {
         width: 100%;
         height: 15%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
     }
 
     .techsIcons div {
-        flex-basis: 18%;
-        height: 80%;
-        display: flex;
-        justify-content: center;
+        flex-basis: 13%;
+        height: 90%;
+    }
+
+}
+
+@media(max-width: 360px) {
+    .title {
+        letter-spacing: 6px;
+        font-size: 0.8rem;
+    }
+
+    .mainImg {
+        height: 70%;
+        width: 70%;
+    }
+
+    .mainImg img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .techsIcons {
+        width: 90%;
+        height: 13%;
+    }
+
+    .techsIcons div {
+        flex-basis: 11%;
+        height: 65%;
     }
 
 }

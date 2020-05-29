@@ -18,34 +18,100 @@
     align-items: center;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1024px) {
+    .projects_wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        margin-top: 150px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: space-around;
+    }
+
+    .projectContainer {
+        flex-basis: 45%;
+        display: flex;
+        flex-direction: column;
+        height: 45%;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+}
+
+@media(orientation:portrait)and (max-width: 768px) {
 
     .projects_wrapper {
         justify-content: space-around;
         align-items: space-between;
-        height: 380vh;
-        margin-top: 110px;
+        height: auto;
+        margin-top: 150px;
     }
 
     .projectContainer {
         flex-basis: 40%;
+        height: 45vh;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1%;
     }
 }
+
+@media(max-width: 700px) {
+
+    .projects_wrapper {
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        margin-top: 150px;
+    }
+
+    .projectContainer {
+        flex-basis: 40%;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+}
+
 
 @media(max-width: 460px) {
     .projects_wrapper {
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 220vh;
+        height: auto;
         margin-top: 140px;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        margin-bottom: 30%;
+        margin-bottom: 10%;
     }
 
     .projectContainer {
         height: auto;
+        margin-bottom: 5vh;
+    }
+}
+
+@media(max-width: 360px) {
+
+    .projects_wrapper {
+        justify-content: space-around;
+        align-items: space-between;
+        height: auto;
+        margin-top: 120px;
+        margin-bottom: 2vh;
+    }
+
+    .projectContainer {
+        flex-basis: 35%;
+        height: 50vh;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 7vh;
     }
 }
