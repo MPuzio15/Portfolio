@@ -17,6 +17,7 @@ const Contact = () => {
             className="link"
             href="https://www.linkedin.com/in/martyna-p-b81909145/"
             target="_blank"
+            rel="noopener"
           >
             <FontAwesomeIcon
               className="icon"

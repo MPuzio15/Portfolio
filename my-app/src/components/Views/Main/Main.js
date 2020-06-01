@@ -52,7 +52,7 @@ class Main extends Component {
               </div>
             </div>
           </div>
-          <div className="mainDiv" className="mainDiv">
+          <div className="mainDiv">
             <div className="aboutMeMain">Technologies</div>
             <div className="technologiesWrapper">{allTechnologies}</div>
           </div>

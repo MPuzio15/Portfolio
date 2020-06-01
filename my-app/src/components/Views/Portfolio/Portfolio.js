@@ -30,6 +30,7 @@ class Porfolio extends Component {
           name={project.name}
           picture={project.mainImg}
           pictures={project.otherImgs}
+          href={project.href}
         ></ImageProject>
       );
     });

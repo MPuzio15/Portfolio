@@ -5,7 +5,6 @@ import "./NavContainer.css";
 function NavContainer() {
   return (
     <nav>
-      <button id="hamburger" className="hamburger hide"></button>
       <ul>
         <li>
           <NavLink

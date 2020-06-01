@@ -302,6 +302,25 @@ main div {
 
 }
 
+@media (max-width: 375px) {
+    main {
+        width: 100vw;
+        height: 75vh;
+    }
+
+    .aboutMeMain {
+        font-size: 1.1rem;
+        margin: 4vh 0;
+    }
+
+    .aboutMeText {
+        text-align: center;
+        text-align: center;
+        height: 80%;
+        font-size: 0.85rem;
+    }
+}
+
 @media (max-width: 360px) {
     main {
         width: 100vw;

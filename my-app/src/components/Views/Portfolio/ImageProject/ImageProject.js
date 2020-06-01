@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./ImageProject.css";
 
 function ImageProject(props) {
@@ -8,9 +8,11 @@ function ImageProject(props) {
 
   return (
     <div className="projectContainer">
-      <div className="title">{props.name}</div>
+      <h3 className="title">{props.name}</h3>
       <div className="mainImg">
-        <img src={props.picture} alt="photo" />
+        <a className="mainImg" href={props.href}>
+          <img src={props.picture} alt="project" />
+        </a>
       </div>
       <div className="techsIcons">
         <div>

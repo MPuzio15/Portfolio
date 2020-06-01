@@ -13,24 +13,28 @@ const allProjects = [
     name: "Coffee Shop",
     mainImg: portfolio1,
     otherImgs: [htmlImg, cssImg, jsImg],
+    href: "https://coffeeshop.martynapuzio.pl/",
   },
   {
     id: 2,
     name: "Stopwatch",
     mainImg: portfolio2,
     otherImgs: [htmlImg, cssImg, reactImg],
+    href: "https://stopwatch.martynapuzio.pl/",
   },
   {
     id: 3,
     name: "Filmoteka",
     mainImg: portfolio3,
     otherImgs: [htmlImg, cssImg, jsImg],
+    href: "https://filmoteka.martynapuzio.pl/",
   },
   {
     id: 4,
     name: "Dog Shelter",
     mainImg: portfolio4,
     otherImgs: [htmlImg, cssImg, reactImg],
+    href: "https://dogshelter.martynapuzio.pl/",
   },
 ];
 export function getAllProjects() {

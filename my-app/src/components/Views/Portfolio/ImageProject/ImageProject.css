@@ -1,12 +1,19 @@
 .title {
-    flex-basis: 3%;
+    flex-basis: 10%;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 1.0rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 200;
     text-align: center;
+    line-height: 1rem;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
 }
 
 .mainImg {
+    flex-basis: 50%;
     flex-basis: 60%;
     height: 60%;
     width: 100%;
@@ -16,19 +23,24 @@
     align-items: center;
 }
 
+.mainImg img {
+    border: 1px solid black;
+}
+
 .techsIcons {
     width: 100%;
-    flex-basis: 30%;
+    height: 15%;
+    flex-basis: 20%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: center;
-
+    margin-top: 7vh;
 }
 
 .techsIcons img {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 100%;
 }
 
 .techsIcons div {
@@ -47,7 +59,7 @@
 
 @media(max-width: 700px) {
     .title {
-        flex-basis: 10%;
+        flex-basis: 50%;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-size: 0.8rem;
@@ -56,7 +68,8 @@
 
     .mainImg {
         flex-basis: 60%;
-        height: 60%;
+        height: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -75,6 +88,7 @@
         flex-direction: row;
         justify-content: center;
         justify-content: center;
+        margin: 3vh 0;
 
     }
 
@@ -94,13 +108,17 @@
 @media(max-width: 460px) {
     .title {
         letter-spacing: 7px;
-        font-size: 0.8rem;
-        margin-bottom: 3vh;
+        font-size: 0.75rem;
+        margin-bottom: 1vh;
     }
 
     .mainImg {
         height: 90%;
         width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 
     .mainImg img {
@@ -109,26 +127,59 @@
     }
 
     .techsIcons {
+        width: 90%;
+        height: 12%;
+        margin-top: 2vh;
+    }
+
+    .techsIcons div {
+        flex-basis: 10%;
+        height: 80%;
+    }
+
+}
+
+@media(max-width: 375px) {
+    .title {
+        letter-spacing: 7px;
+        font-size: 0.85rem;
+        flex-basis: 10%;
+        margin-bottom: 2vh;
+    }
+
+    .mainImg {
+        height: 100%;
+        width: 90%;
+        flex-basis: 60%;
+    }
+
+    .mainImg img {
         width: 100%;
+        height: 100%;
+    }
+
+    .techsIcons {
+        margin-top: 1vh;
+        width: 90%;
         height: 15%;
+        flex-basis: 15%;
     }
 
     .techsIcons div {
         flex-basis: 13%;
-        height: 90%;
+        height: 80%;
     }
-
 }
 
 @media(max-width: 360px) {
     .title {
         letter-spacing: 6px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .mainImg {
-        height: 70%;
-        width: 70%;
+        height: 100%;
+        width: 90%;
     }
 
     .mainImg img {
@@ -138,12 +189,11 @@
 
     .techsIcons {
         width: 90%;
-        height: 13%;
+        height: 18%;
     }
 
     .techsIcons div {
-        flex-basis: 11%;
-        height: 65%;
+        flex-basis: 13%;
+        height: 85%;
     }
-
 }
