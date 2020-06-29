@@ -21,15 +21,15 @@ const allTechnologies = [
   },
   {
     id: 6,
-    name: ".NET",
+    name: "Python",
   },
   {
     id: 7,
-    name: "Node.js",
+    name: "Django",
   },
   {
     id: 8,
-    name: "SQL",
+    name: "SQLite",
   },
 ];
 export function getAllTechnologies() {

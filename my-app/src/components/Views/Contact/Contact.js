@@ -51,12 +51,6 @@ const Contact = () => {
             Send me an e-mail
           </div>
         </div>
-        <div className="iconContainer">
-          <a className="link" href="tel:+48786138516" target="_blank">
-            <FontAwesomeIcon className="icon" icon={faPhoneSquare} />
-          </a>
-          <div className="description">or just call me (+48)786138515</div>
-        </div>
       </div>
     </section>
   );

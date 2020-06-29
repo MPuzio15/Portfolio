@@ -20,7 +20,7 @@ const allProjects = [
     name: "Stopwatch",
     mainImg: portfolio2,
     otherImgs: [htmlImg, cssImg, reactImg],
-    href: "https://stopwatch.martynapuzio.pl/",
+    href: "https://accessories.martynapuzio.pl/",
   },
   {
     id: 3,
