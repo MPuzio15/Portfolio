@@ -2,12 +2,21 @@ import htmlImg from "../../../images/HTML.png";
 import cssImg from "../../../images/CSS.png";
 import jsImg from "../../../images/JS.png";
 import reactImg from "../../../images/REACT.png";
+import django from "../../../images/django.png";
+import portfolio0 from '../../../images/portfolio0.png';
 import portfolio1 from "../../../images/portfolio1.png";
 import portfolio2 from "../../../images/portfolio2.png";
 import portfolio3 from "../../../images/portfolio3.png";
 import portfolio4 from "../../../images/portfolio4.png";
 
 const allProjects = [
+  {
+    id: 0,
+    name: "Foodbrainers",
+    mainImg: portfolio0,
+    otherImgs: [cssImg, jsImg, django],
+    href: "https://piscine-maison-07591.herokuapp.com/",
+  },
   {
     id: 1,
     name: "Coffee Shop",
