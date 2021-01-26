@@ -11,7 +11,7 @@ Page about me and my projectd. Technologies used: React.js
 
 # Installation
 ```
-Copy the clone command: git clone https://github.com/MPuzio15/CapsuleLife.git
+Copy the clone command: git clone https://github.com/MPuzio15/Portfolio.git
 ```
 ```
 From a terminal window, go to the local directory where you want to clone your repository.
