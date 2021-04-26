@@ -17,19 +17,19 @@ const allTechnologies = [
   },
   {
     id: 5,
-    name: "jQuery",
+    name: "React Native",
   },
   {
     id: 6,
-    name: "Python",
+    name: "Redux",
   },
   {
     id: 7,
-    name: "Django",
+    name: "TypeScript",
   },
   {
     id: 8,
-    name: "SQLite",
+    name: "Firebase",
   },
 ];
 export function getAllTechnologies() {

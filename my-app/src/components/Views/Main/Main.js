@@ -30,7 +30,7 @@ class Main extends Component {
           <img className="mainPhoto" src={MainPhoto} alt="women" />
           <span className="right">
             <div className="firstRight">Hi, I am Martyna. </div>
-            <div className="secondRight">I am a front-end developer.</div>
+            <div className="secondRight">I am a React Native Developer.</div>
           </span>
         </main>
         <section className="aboutMe">
@@ -38,14 +38,16 @@ class Main extends Component {
             <div className="aboutMeMain">About me</div>
             <div className="aboutMeText">
               <div>
-                Everyday I step forward to became a better front-end developer.
+                Everyday I step forward to became a better developer.
               </div>
               <div>
                 My favourite Java Script framework is React.js and that is what
-                I usually use in my projects. I aslo learn C# and Python and I
-                would like to use them in the future.
+                I usually use in my projects. I also like React Native framework, 
+                which enables creating the mobile apps for both Android and IOS operating system.
+                That is a technology that I use at work on daily basis. 
               </div>
-              <div>In my free time I learn foreign languages and sing.</div>
+              <div>In my free time I learn foreign languages, travel, sing and play the piano.</div>
+              <div>I also love reading about news in technologies.</div>
               <div>
                 Feel free to check my portfolio of some of my projects and visit
                 my GitHub profile to see more.

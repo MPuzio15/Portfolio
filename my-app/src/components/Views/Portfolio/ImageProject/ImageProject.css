@@ -1,54 +1,43 @@
 .title {
-    flex-basis: 10%;
+    width: 100%;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
-    line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
-    text-align: center;
-    line-height: 1rem;
-    margin: 0;
-    display: flex;
-    align-items: flex-end;
+    padding: 10% 0 10% 0;
+    background-color: bisque;
+    background-color: brown;
 }
-
-.mainImg {
-    flex-basis: 50%;
-    flex-basis: 60%;
-    height: 60%;
-    width: 100%;
+.aMain {
+    background-color: blue;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* flex-basis: 80%; */
+    /* flex-grow: 1; */
 }
 
-.mainImg img {
+.aMain img {
     border: 1px solid black;
+    background-color: black;
+    margin: 10;
 }
-
 .techsIcons {
-    width: 100%;
-    height: 15%;
-    flex-basis: 20%;
+    /* flex-basis: 10%; */
+    width: 50%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    justify-content: center;
-    margin-top: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: pink;
 }
 
 .techsIcons img {
-    width: 80%;
-    height: 100%;
+    margin: 2px;
+    width: 80px;
+    height: 80px;
 }
 
-.techsIcons div {
-    flex-basis: 10%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-}
 
 @media(max-width: 800px) {
     .techsIcons div {

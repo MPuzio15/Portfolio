@@ -8,22 +8,14 @@ function ImageProject(props) {
 
   return (
     <div className="projectContainer">
-      <h3 className="title">{props.name}</h3>
-      <div className="mainImg">
-        <a className="mainImg" href={props.href}>
-          <img src={props.picture} alt="project" />
-        </a>
-      </div>
+      <div className="title">{props.name}</div>
+      <a className='aMain' href={props.href}>
+        <img src={props.picture} alt="project" />
+      </a>
       <div className="techsIcons">
-        <div>
-          <img key="img1" src={img1} alt="photo" />
-        </div>
-        <div>
-          <img key="img2" src={img2} alt="photo" />
-        </div>
-        <div>
-          <img key="img3" src={img3} alt="photo" />
-        </div>
+        <img key="img1" src={img1} alt="photo" />
+        <img key="img2" src={img2} alt="photo" />
+        <img key="img3" src={img3} alt="photo" />
       </div>
     </div>
   );
