@@ -11,7 +11,7 @@ function NavContainer() {
             to="/"
             exact
             activeClassName="main_selected"
-            className="main"
+            className="link main"
           >
             Main
           </NavLink>
@@ -20,7 +20,7 @@ function NavContainer() {
           <NavLink
             to="/portfolio"
             activeClassName="portfolio_selected"
-            className="portfolio"
+            className="link portfolio"
           >
             Portfolio
           </NavLink>
@@ -29,7 +29,7 @@ function NavContainer() {
           <NavLink
             to="/contact"
             activeClassName="contact_selected"
-            className="contact"
+            className="link contact"
           >
             Contact
           </NavLink>

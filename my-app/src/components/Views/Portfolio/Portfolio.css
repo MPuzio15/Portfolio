@@ -6,7 +6,6 @@
   margin-top: 120px;
   justify-content: center;
   align-items: space-between;
-  /* background-color: aqua; */
 }
 
 .projectContainer {
@@ -15,120 +14,42 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: beige;
   margin: 1% 2% 0% 2%;
 }
 
 @media (max-width: 1024px) {
-  .projects_wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    margin-top: 150px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-around;
-  }
-
   .projectContainer {
     flex-basis: 45%;
-    display: flex;
-    flex-direction: column;
-    height: 45%;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10%;
   }
 }
 
 @media (orientation: portrait) and (max-width: 768px) {
   .projects_wrapper {
     justify-content: space-around;
-    align-items: space-between;
-    height: auto;
-    margin-top: 150px;
-  }
-
-  .projectContainer {
-    flex-basis: 40%;
-    height: 45vh;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1%;
-  }
-}
-
-@media (max-width: 700px) {
-  .projects_wrapper {
-    justify-content: space-around;
-    align-items: center;
-    height: auto;
-    margin-top: 120px;
-    width: 100vw;
   }
 
   .projectContainer {
     flex-basis: 50%;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .projectContainer {
     margin-bottom: 5vh;
-    ;
   }
 }
 
 @media (max-width: 460px) {
   .projects_wrapper {
-    display: flex;
     flex-direction: column;
-    width: 95vw;
-    height: auto;
-    margin-top: 140px;
-    flex-wrap: nowrap;
-    justify-content: center;
+    width: 100vw;
     align-items: center;
-    margin-bottom: 10%;
-  }
-
-  .projectContainer {
-    height: 60vh;
-    margin-bottom: 5vh;
-  }
-}
-
-@media (max-width: 375px) {
-  .projects_wrapper {
-    justify-content: space-around;
-    align-items: space-between;
-    height: auto;
-    margin-top: 110px;
-    margin-bottom: 2vh;
-  }
-
-  .projectContainer {
-    flex-basis: 35%;
-    height: 40vh;
-    justify-content: center;
-    align-items: center;
-    margin: 4vh 0;
   }
 }
 
 @media (max-width: 360px) {
   .projects_wrapper {
-    justify-content: space-around;
-    align-items: space-between;
-    height: auto;
     margin-top: 100px;
-    margin-bottom: 2vh;
-  }
-
-  .projectContainer {
-    flex-basis: 35%;
-    height: 45vh;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 7vh;
   }
 }
