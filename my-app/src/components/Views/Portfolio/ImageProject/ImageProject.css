@@ -8,8 +8,14 @@
     padding: 3% 0 4% 0;
 }
 
+.aMain {
+
+}
+
 .aMain img {
     border: 1px solid black;
+        width: 200px;
+    /* height: 200px; */
 }
 .techsIcons {
     width: 50%;

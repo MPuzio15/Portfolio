@@ -34,7 +34,7 @@ class Porfolio extends Component {
         ></ImageProject>
       );
     });
-    return <div className="projects_wrapper">{allProjects}</div>
+    return <div className="projects_wrapper">{allProjects}</div>;
   }
 }
 

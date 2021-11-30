@@ -1,12 +1,8 @@
 import React from "react";
 import "./Contact.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedinIn,
-  faGithubSquare,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelopeOpen } from "@fortawesome/free-regular-svg-icons";
-import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
+import linkedInIcon from "../../../assets/icons/linkedIn.png";
+import envelopeIcon from "../../../assets/icons/envelope.png";
+import githubIcon from "../../../assets/icons/github.png";
 
 const Contact = () => {
   return (
@@ -19,11 +15,7 @@ const Contact = () => {
             target="_blank"
             rel="noopener"
           >
-            <FontAwesomeIcon
-              className="icon"
-              id="linkedin"
-              icon={faLinkedinIn}
-            />
+            <img className="icon" id="linkedin" src={linkedInIcon} />
           </a>
           <div className="description">Visit my LinkedIn profile</div>
         </div>
@@ -33,7 +25,7 @@ const Contact = () => {
             href="https://github.com/MPuzio15"
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={faGithubSquare} />
+            <img className="icon" src={githubIcon} />
           </a>
           <div className="description">
             Go to my GitHub account to see more projects
@@ -45,7 +37,7 @@ const Contact = () => {
             href="mailto: mrtnpuzio@gmail.com"
             target="_blank"
           >
-            <FontAwesomeIcon className="icon" icon={faEnvelopeOpen} />
+            <img className="icon" src={envelopeIcon} />
           </a>
           <div className="link" className="description">
             Send me an e-mail

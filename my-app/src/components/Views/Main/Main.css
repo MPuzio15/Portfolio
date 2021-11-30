@@ -168,7 +168,7 @@ main div {
 
     main {
         align-items: flex-end;
-        background-image: url("../../../images/women_640.jpg");
+        background-image: url("../../../assets/images/women_640.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;
@@ -229,7 +229,7 @@ main div {
 
     main {
         align-items: flex-end;
-        background-image: url("../../../images/women_640.jpg");
+        background-image: url("../../../assets/images/women_640.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;

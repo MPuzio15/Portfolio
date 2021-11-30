@@ -13,23 +13,23 @@ const allTechnologies = [
   },
   {
     id: 4,
-    name: "React.js",
-  },
-  {
-    id: 5,
     name: "React Native",
   },
   {
-    id: 6,
-    name: "Redux",
+    id: 5,
+    name: "React.js",
   },
   {
-    id: 7,
+    id: 6,
     name: "TypeScript",
   },
   {
+    id: 7,
+    name: "Redux",
+  },
+  {
     id: 8,
-    name: "Firebase",
+    name: "unstated-next",
   },
 ];
 export function getAllTechnologies() {

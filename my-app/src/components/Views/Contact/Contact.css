@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.icon {
+    width: 80px;
+    height: 80px;
+}
+
 .iconContainer {
     flex-basis: 20vh;
     display: flex;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Main.css";
-import MainPhoto from "../../../images/women_1920.jpg";
+import MainPhoto from "../../../assets/images/women_1920.jpg";
 import Technology from "./Technology/Technology";
 import { getAllTechnologies } from "../../Services/GetTechnology/GetTechnilogy";
 
@@ -30,24 +30,23 @@ class Main extends Component {
           <img className="mainPhoto" src={MainPhoto} alt="women" />
           <span className="right">
             <div className="firstRight">Hi, I am Martyna. </div>
-            <div className="secondRight">I am a React Native Developer.</div>
+            <div className="secondRight">I am a Frontend Developer.</div>
           </span>
         </main>
         <section className="aboutMe">
           <div className="mainDiv">
             <div className="aboutMeMain">About me</div>
             <div className="aboutMeText">
+              <div>Everyday I step forward to became a better developer.</div>
               <div>
-                Everyday I step forward to became a better developer.
+                Currently I am working using React Native framework, which
+                enables creating the mobile apps for both Android and IOS
+                operating system. I also started using Type Script in my
+                projects and it became my best friend and a life saver.
               </div>
               <div>
-                My favourite Java Script framework is React.js and that is what
-                I usually use in my projects. I also like React Native framework, 
-                which enables creating the mobile apps for both Android and IOS operating system.
-                That is a technology that I use at work on daily basis. 
+                In my free time I learn foreign languages, travel and read.
               </div>
-              <div>In my free time I learn foreign languages, travel, sing and play the piano.</div>
-              <div>I also love reading about news in technologies.</div>
               <div>
                 Feel free to check my portfolio of some of my projects and visit
                 my GitHub profile to see more.
