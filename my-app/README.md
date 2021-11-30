@@ -1,5 +1,5 @@
 # Portfolio
-Page about me and my projectd. Technologies used: React.js
+Page about me and my projects. Technologies used: React.js
 
 # Technologies
 
